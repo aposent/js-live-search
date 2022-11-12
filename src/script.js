@@ -9,7 +9,7 @@ function render_fruits(list) {
     let li = ''
 
     if (list.length === 0) {
-        li = `<li>Not results found</li>`
+        li = `<li>Not results found ;/</li>`
         ul.innerHTML = li
         return
     }
